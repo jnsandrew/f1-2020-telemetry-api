@@ -6,6 +6,9 @@ const app = express();
 
 require('express-ws')(app);
 
+const GAME_PORT = process.env.GAME_PORT || 20777;
+const PORT = process.env.PORT || 3000;
+
 app.ws('/motion', generateWSRoute('data_motion'));
 app.ws('/session', generateWSRoute('data_session'));
 app.ws('/laps', generateWSRoute('data_laps'));
@@ -21,6 +24,5 @@ app.get('/', function (req, res, next) {
     res.end();
 });
 
-socket.bind(20777);
-
-app.listen(3000);
+socket.bind(GAME_PORT);
+app.listen(PORT);
