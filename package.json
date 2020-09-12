@@ -1,0 +1,18 @@
+{
+    "name": "f12020-telemetry",
+    "version": "0.0.1",
+    "description": "Receive F1 2020 telemetry over UDP and push over websocket",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "binary-parser": "^1.6.2",
+        "express": "^4.17.1",
+        "express-ws": "^4.0.0",
+        "http": "0.0.1-security",
+        "ws": "^7.3.1"
+    }
+}

@@ -1,0 +1,49 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+/build
+bin
+
+# dependencies
+/node_modules
+node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+tests/reports
+.vscode/*
+!e2e/**/.vscode
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.yardoc
+.yardopts
+lerna-debug.log
+versionInfo.jso
+.bic_cache
+.env
+.env*
+.prepush.config
+.prepush.config
+.local/
+.npm/
+.pki/
+
+# System Files
+.DS_Store
+Thumbs.db
