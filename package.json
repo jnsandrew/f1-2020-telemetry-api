@@ -14,5 +14,8 @@
         "express-ws": "^4.0.0",
         "http": "0.0.1-security",
         "ws": "^7.3.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.1.1"
     }
 }
